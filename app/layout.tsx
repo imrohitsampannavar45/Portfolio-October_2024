@@ -15,17 +15,17 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   manifest: "/manifest.json",
-  metadataBase: new URL("https://www.iaryan.tech"),
-  title: "Aryan | Portfolio",
+  metadataBase: new URL(" https://www.linkedin.com/in/rohitvs1/"),
+  title: "Rohit | Portfolio",
   description:
-    "Welcome to Aryan's portfolio website. Discover my projects, skills, and professional journey. View my resume and contact me for services.",
+    "Welcome to Aryan's Rohit website. Discover my projects, skills, and professional journey. View my resume and contact me for services.",
   openGraph: {
-    title: "Aryan | Portfolio",
+    title: "Rohit | Portfolio",
     description:
-      "Welcome to Aryan's portfolio website. Discover my projects, skills, and professional journey. View my resume and contact me for services.",
+      "Welcome to Rohit's portfolio website. Discover my projects, skills, and professional journey. View my resume and contact me for services.",
     images: [
       {
-        url: "https://www.iaryan.tech/opengraph-image.png",
+        url: " https://www.linkedin.com/in/rohitvs1/",
       },
     ],
   },

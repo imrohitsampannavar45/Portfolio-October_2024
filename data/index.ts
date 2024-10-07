@@ -5,32 +5,38 @@ export const navItems = [
   { name: "Home", link: "/", icon: Home },
   { name: "About", link: "/about", icon: User },
   { name: "Projects", link: "/projects", icon: Laptop2 },
-  { name: "Services", link: "https://arcavian.iaryan.tech", icon: Rocket },
   { name: "Contact", link: "#contact", icon: Mail },
   { name: "Blogs", link: "/blogs", icon: NotebookText },
 ];
 
 export const FrontendSkills = [
+
   {
     id: 1,
+    skill: "React JS",
+    img: "./images/icons/react.svg",
+    value: 90,
+  },
+  {
+    id: 2,
     skill: "Next JS 14",
     img: "./images/icons/nextjs.svg",
     value: 80,
   },
   {
-    id: 2,
+    id: 3,
     skill: "Tailwind CSS",
     img: "./images/icons/tailwind.svg",
     value: 85,
   },
   {
-    id: 3,
+    id: 4,
     skill: "Javascript",
     img: "./images/icons/javascript.svg",
     value: 75,
   },
   {
-    id: 4,
+    id: 5,
     skill: "Typescript",
     img: "./images/icons/typescript.svg",
     value: 70,
@@ -95,12 +101,7 @@ export const languageSkills = [
     img: "./images/icons/python.svg",
     value: 65,
   },
-  {
-    id: 6,
-    skill: "Kotlin",
-    img: "./images/icons/kotlin.svg",
-    value: 70,
-  },
+
 ];
 
 export const OtherSkills = [
@@ -121,85 +122,55 @@ export const OtherSkills = [
 export const projects = [
   {
     id: 1,
-    title: "DevForces",
-    des: "DevForces, a Next.JS 14 Full Stack application, is a community driven platform that enables us to ask questions, get answered by others and answer other's questions as well. It also provides us the facility to write beautiful blog articles and post it on DevForces. This peace of work is inspired from the application DevOverflow by javascriptmastery, who helped me create this mega project with highly detailed features.",
-    img: "https://github.com/iAryanK/DevOverflow/raw/main/app/opengraph-image.png?raw=true",
+    title: "Prescripto - Doctors Appointment Booking Website",
+    des: " Prescripto is an online appointment booking platform designed for doctors and hospitals. The website offers a seamless user experience for booking appointments with healthcare professionals based on their specialty, availability, and user preferences. The platform is built with a modern tech stack, ensuring efficiency, reliability, and a user-friendly interface for both patients and healthcare providers.",
+    img: "https://private-user-images.githubusercontent.com/88710389/374110495-07f43e79-d568-424a-b743-6a819837a98b.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjgyOTMzNDksIm5iZiI6MTcyODI5MzA0OSwicGF0aCI6Ii84ODcxMDM4OS8zNzQxMTA0OTUtMDdmNDNlNzktZDU2OC00MjRhLWI3NDMtNmE4MTk4MzdhOThiLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDA3VDA5MjQwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI3NjJmZDZmMmE5NGYyNzhkZmZiMTkyNzkwNWY3N2NlOWI3MDYxOWY1MDhhYTE2OGRiNWUzZjEzYjZkMDgyNDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.gUnVAX4QPtzfGjx3uSrfy5GTwFdnvZIQPZC3tePeijk",
     iconLists: [
-      "/images/icons/nextjs.svg",
+      "/images/icons/react.svg",
       "/tail.svg",
-      "/ts.svg",
       "/images/icons/mongodb.svg",
-      "/c.svg",
+      "/git.svg",
+      "/images/icons/javascript.svg"
     ],
-    link: "https://devforces.tech",
+    link: "https://prescripto-blue.vercel.app/"
   },
   {
     id: 2,
-    title: "UniPort",
-    des: " Uniport serves as a single port where users can seamlessly access and utilize different AI functionalities to enhance their workflows and creative endeavors, hence the name Uniport. The project leverages cutting-edge technologies such as Next.js 14 for both backend and frontend development, React for dynamic user interfaces, Tailwind CSS for sleek and responsive design, and Prisma for seamless connectivity with a MySQL database hosted on Aiven.",
-    img: "https://github.com/iAryanK/Uniport/raw/main/public/screenshots/landing.png?raw=true",
+    title: "Food Delivery Website",
+    des: "This project is a food delivery website with features such as user authentication, shopping cart functionality, order placement, and administration panel for managing orders and food items.",
+    img: "https://private-user-images.githubusercontent.com/88710389/325232745-b1ed80de-7e4d-42cc-9729-2dfde8f13892.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjgyOTM4NjUsIm5iZiI6MTcyODI5MzU2NSwicGF0aCI6Ii84ODcxMDM4OS8zMjUyMzI3NDUtYjFlZDgwZGUtN2U0ZC00MmNjLTk3MjktMmRmZGU4ZjEzODkyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDA3VDA5MzI0NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZjMGVkMTYyYjUzM2YyY2NkNjRmMjI4YWFlMGE4Y2E2M2E0NGY2N2EwYmNhM2FlZjdiMjk0MjYwNmRmOWM5OTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.dTgErze-pQhFvXU9QgeHIOXHolGy4e8FuoqLCmKmTfQ",
     iconLists: [
-      "/images/icons/nextjs.svg",
+     
+      "/images/icons/react.svg",
       "/tail.svg",
-      "/ts.svg",
-      "/images/icons/sql.svg",
-      "/c.svg",
+      "/images/icons/javascript.svg",
+      "/images/icons/mongodb.svg",
+     
     ],
-    link: "https://uniport.vercel.app",
+    link: "https://github.com/imrohitsampannavar45/Food_Delievery_Tomato.git",
   },
   {
     id: 3,
-    title: "WhatsFlow",
-    des: "A desktop application that sends bulk messages on whatsapp. WhatsFlow is a highly efficient bulk message sender due to its unique algorithm for sending message. Also, the application has some features that makes it stand out from others.",
-    img: "https://github.com/iAryanK/WhatsFlow/raw/main/screenshots/ui_light.png?raw=true",
-    iconLists: ["/images/icons/python.svg"],
-    link: "https://github.com/iAryanK/WhatsFlow",
+    title: "Blogger Website",
+    des: " The Blogger Website is a modern blogging platform built using Next.js, designed to provide users with an engaging and interactive experience for reading, writing, and sharing blog posts. This project leverages the power of Next.js for server-side rendering and static site generation, ensuring fast load times and optimal SEO performance.",
+
+    img: "/images/downloads.jpg",
+    iconLists: [
+      "/images/icons/nextjs.svg",
+      "/tail.svg",
+      "/images/icons/javascript.svg",
+      "/images/icons/mongodb.svg",
+   
+    ],
+    link: "https://github.com/imrohitsampannavar45/Blogger-Website-NextJS.git",
   },
   {
     id: 4,
     title: "Personal Portfolio",
-    des: "None other than the website you are surfing right now! This website respresents my personal portfolio - who I am, My skills, project works and contact details with some blogs that is weaved with my knowledge and information. If this website feels amazing to you, you should try using technologies like Next JS, tailwind CSS, Aceternity UI, shadcn UI and my favourite, GSAP for animations.",
-    img: "/images/portfolio-project.png",
+    des: "None other than the website you are surfing right now! This website respresents my personal portfolio - who I am, My skills, project works and contact details with some blogs that is weaved with my knowledge and information. If this website feels amazing to you, you should try using technologies like Next JS, tailwind CSS, Magic UI",
+    img: "/images/rohits.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/gsap.svg"],
-    link: "https://github.com/iAryanK/portfolio",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Working with Aryan was a great experience. His technical acumen and ability to troubleshoot complex issues were crucial to our project's success.",
-    name: "Jyotika Rana",
-    profession: "Fullstack Developer",
-    image: "/images/girl-smiley.png",
-  },
-  {
-    quote:
-      "Aryan's passion for technology and commitment to delivering high-quality work make him an exceptional developer. I would gladly work with him again.",
-    name: "Veena Pal",
-    profession: "UI/UX Designer",
-    image: "/images/girl-smiley.png",
-  },
-  {
-    quote:
-      "Aryan brought a wealth of knowledge and experience to our project. His innovative solutions and technical expertise were instrumental in achieving our goals.",
-    name: "Ajay Kumar",
-    profession: "Cyber Security Analyst",
-    image: "/images/boy-smiley.png",
-  },
-  {
-    quote:
-      "I highly recommend Aryan for any development project. His creativity and technical proficiency ensured the delivery of an outstanding product.",
-    name: "Aman Kumar Sharma",
-    profession: "Java Developer",
-    image: "/images/boy-smiley.png",
-  },
-  {
-    quote:
-      "Aryan's dedication and attention to detail were key factors in the success of our project. His technical skills and problem-solving abilities are top-notch.",
-    name: "Banta Singh",
-    profession: "Java Developer",
-    image: "/images/boy-smiley.png",
+    link: "https://nextjs-portfolio-rohit-sampannavars-projects.vercel.app/",
   },
 ];
 
@@ -207,16 +178,16 @@ export const socialMedia = [
   {
     id: 1,
     img: FaGithub,
-    link: "https://github.com/iAryanK",
+    link: "https://github.com/imrohitsampannavar45",
   },
   {
     id: 2,
     img: FaLinkedinIn,
-    link: "https://www.linkedin.com/in/iaryan/",
+    link: " https://www.linkedin.com/in/rohitvs1/",
   },
   {
     id: 3,
     img: FaXTwitter,
-    link: "https://x.com/i_AryanK",
+    link: "https://x.com/RohitSampanna12",
   },
 ];

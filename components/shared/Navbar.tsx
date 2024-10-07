@@ -36,7 +36,7 @@ function Navigationbar({ className }: { className?: string }) {
         <div className="flex justify-between items-center">
           <LinkTransition href="/">
             <h1 className="font-bold text-4xl max-md:py-4 text-black-100 dark:text-white">
-              Aryan.
+              Rohit.
             </h1>
           </LinkTransition>
 
@@ -69,28 +69,28 @@ function Navigationbar({ className }: { className?: string }) {
                 >
                   <div className="text-sm grid grid-cols-2 gap-10 p-4">
                     <ProductItem
-                      title="Uniport"
-                      href="https://uniport.vercel.app"
-                      src="https://github.com/iAryanK/Uniport/raw/main/public/screenshots/landing.png?raw=true"
-                      description="An AI park where one can use various types of AI tools at a single place"
+                      title="Prescripto"
+                      href=" https://github.com/imrohitsampannavar45/Prescripto.git"
+                      src= "https://private-user-images.githubusercontent.com/88710389/374110495-07f43e79-d568-424a-b743-6a819837a98b.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjgyOTU2MjgsIm5iZiI6MTcyODI5NTMyOCwicGF0aCI6Ii84ODcxMDM4OS8zNzQxMTA0OTUtMDdmNDNlNzktZDU2OC00MjRhLWI3NDMtNmE4MTk4MzdhOThiLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDA3VDEwMDIwOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTAyNTUzNjAzNjUwNDEwYTBmODY1OWFiNjExMTNjOGMzZTU4Y2Y0N2UzOTk5ZDRjNDRiMTIxNThhM2YzYjcyMTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.I7IpgayQxT8IYjtfJNGiG-kx0MktVszMHSvJhCeYWEI"
+                      description=" Prescripto is an online appointment booking platform designed for doctors and hospital "
                     />
                     <ProductItem
-                      title="DevForces"
-                      href="https://devforces.tech"
-                      src="https://github.com/iAryanK/DevOverflow/raw/main/app/opengraph-image.png?raw=true"
-                      description="A community driven platform similar to stack overflow"
+                      title="Food Delivery"
+                      href="https://github.com/imrohitsampannavar45/Food_Delievery_Tomato.git"
+                      src="https://private-user-images.githubusercontent.com/88710389/325232745-b1ed80de-7e4d-42cc-9729-2dfde8f13892.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjgyOTU4MjUsIm5iZiI6MTcyODI5NTUyNSwicGF0aCI6Ii84ODcxMDM4OS8zMjUyMzI3NDUtYjFlZDgwZGUtN2U0ZC00MmNjLTk3MjktMmRmZGU4ZjEzODkyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDA3VDEwMDUyNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU1ODA1OGY0MzczM2I3YmMxMjMwNmUxODEyZGRlN2I2ZDBmNjk0YTUxODU4N2VmMzNkZDIxMzc5NTAyOWM2Y2ImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.FjulwFuIq7PMbjhOCarDwq5kQeHTTGMa-Uol9tn550M"
+                      description="A driven Plarform for Food Delivery using reactjs and Mongodb"
                     />
                     <ProductItem
-                      title="CSE-Insights"
-                      href="https://gomoonbeam.com"
-                      src="https://github.com/iAryanK/CSE-Insights/raw/main/public/assets/images/screenshot.png?raw=true"
-                      description="A NextJS 14 app with a comprehensive CRUD post sharing system"
+                      title="Blogger Websites"
+                      href="https://github.com/imrohitsampannavar45/Blogger-Website-NextJS.git"
+                      src="https://i.ytimg.com/vi/HdWCh_4XE1Q/maxresdefault.jpg"
+                      description="A NextJS 14 website for writing blogs and posting and deleting and updating with category of blogs"
                     />
                     <ProductItem
-                      title="WhatsFlow"
-                      href="https://userogue.com"
-                      src="https://github.com/iAryanK/WhatsFlow/raw/main/screenshots/ui_light.png?raw=true"
-                      description="A desktop application that sends bulk messages on whatsapp"
+                      title="Portfolio"
+                      href="https://github.com/imrohitsampannavar45/Nextjs-Portfolio.git"
+                      src="https://private-user-images.githubusercontent.com/88710389/374125993-f3f17383-b818-44ee-803f-4b2c543b1482.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjgyOTYwOTYsIm5iZiI6MTcyODI5NTc5NiwicGF0aCI6Ii84ODcxMDM4OS8zNzQxMjU5OTMtZjNmMTczODMtYjgxOC00NGVlLTgwM2YtNGIyYzU0M2IxNDgyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDA3VDEwMDk1NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTMzN2UyNmViMzk1OWJmYWIyYzY5OGZkMTMzMDIzMzAzZGY0YmQ4YjAzZmRmYTliZGIwMjhhYmRlOThhZGY4NDkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.A3i-H_QSl4wqeQQi1jBkGQa0MqP_2xJA5HWlcpZTeOM"
+                      description="A Personal Portfolio using Next js and Magic UI"
                     />
                   </div>
                 </MenuItem>
@@ -104,13 +104,13 @@ function Navigationbar({ className }: { className?: string }) {
                   img={<Mail size={18} />}
                 >
                   <div className="flex flex-col space-y-4 text-sm">
-                    <HoveredLink href="https://www.linkedin.com/in/iaryan/">
+                    <HoveredLink href="https://www.linkedin.com/in/rohitvs1/">
                       LinkedIn
                     </HoveredLink>
-                    <HoveredLink href="https://github.com/iAryanK">
+                    <HoveredLink href="https://github.com/imrohitsampannavar45">
                       Github
                     </HoveredLink>
-                    <HoveredLink href="https://twitter.com/i_AryanK">
+                    <HoveredLink href="https://x.com/RohitSampanna12">
                       Twitter
                     </HoveredLink>
                     <div className="w-full h-[1px] bg-slate-500"></div>

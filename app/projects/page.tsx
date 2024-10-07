@@ -4,17 +4,14 @@ import { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "Projects | Aryan",
+  title: "Projects | Rohit",
   description:
     "Creating amazing real life projects have always been an inseparable part of my thills. Get to know about my interesting open source projects with live links, github repository, etc.",
   openGraph: {
-    title: "Projects | Aryan",
+    title: "Projects | Rohit",
     description:
       "Creating amazing real life projects have always been an inseparable part of my thills. Get to know about my interesting open source projects with live links, github repository, etc.",
     images: [
-      {
-        url: "https://www.iaryan.tech/opengraph-image.png",
-      },
     ],
   },
 };

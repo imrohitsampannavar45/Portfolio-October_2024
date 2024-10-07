@@ -67,16 +67,16 @@ const Intro = () => {
       <h2 className="heading">Who Am I ?</h2>
       <div className="mt-20 max-w-7xl mx-auto sm:px-10 xs:px-5 px-2 gbody">
         <div className="max-sm:ml-3 font-semibold text-3xl lg:text-5xl">
-          Hello! I am Aryan,
+        <p>Hello, I am Rohit Sampannavar &#129312;</p>
         </div>
         <div className="text-2xl lg:text-4xl my-5 max-sm:ml-3">
           <p className="leading-snug max-sm:font-extralight  text-[#868562] dark:text-[#BBBAA6]">
-            A final-year Computer Science undergraduate pursuing a Bachelor of
-            Technology. With a passion for programming and a keen interest in
-            exploring new technologies, I am dedicated to continuous learning
-            and innovation. <br /> <br />
-            Aspiring to become a &apos;Software Development Engineer&apos;, my
-            goal is to leverage my skills to create impactful scalable systems.
+          I am a passionate and self-motivated software engineer with a background in computer engineering and a Bachelor's degree in Engineering.
+          
+           With over a year of experience in &apos;Software Development Engineer&apos;  <br /> <br />
+            I specialize in full-stack web development and have a strong foundation in data structures, algorithms, and various programming languages.
+          
+        
           </p>
         </div>
         <Link href="/about">
