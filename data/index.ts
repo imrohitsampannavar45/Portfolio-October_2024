@@ -124,7 +124,7 @@ export const projects = [
     id: 1,
     title: "Prescripto - Doctors Appointment Booking Website",
     des: " Prescripto is an online appointment booking platform designed for doctors and hospitals. The website offers a seamless user experience for booking appointments with healthcare professionals based on their specialty, availability, and user preferences. The platform is built with a modern tech stack, ensuring efficiency, reliability, and a user-friendly interface for both patients and healthcare providers.",
-    img: "https://projectfiles45.s3.ap-south-1.amazonaws.com/Screenshot+2024-10-07+145331.jpg",
+    img: "https://i.ytimg.com/vi/C3U1RforbH4/hqdefault.jpg",
     iconLists: [
       "/images/icons/react.svg",
       "/tail.svg",
@@ -138,7 +138,7 @@ export const projects = [
     id: 2,
     title: "Food Delivery Website",
     des: "This project is a food delivery website with features such as user authentication, shopping cart functionality, order placement, and administration panel for managing orders and food items.",
-    img: "https://projectfiles45.s3.ap-south-1.amazonaws.com/food.jpg",
+    img: "https://i.ytimg.com/vi/9jRTo7ILxQc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAvUj07j5AdUMaQ4fwokC1P3NgF8g",
     iconLists: [
      
       "/images/icons/react.svg",
