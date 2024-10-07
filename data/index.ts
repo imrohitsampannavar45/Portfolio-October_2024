@@ -124,7 +124,7 @@ export const projects = [
     id: 1,
     title: "Prescripto - Doctors Appointment Booking Website",
     des: " Prescripto is an online appointment booking platform designed for doctors and hospitals. The website offers a seamless user experience for booking appointments with healthcare professionals based on their specialty, availability, and user preferences. The platform is built with a modern tech stack, ensuring efficiency, reliability, and a user-friendly interface for both patients and healthcare providers.",
-    img: "https://private-user-images.githubusercontent.com/88710389/374110495-07f43e79-d568-424a-b743-6a819837a98b.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjgyOTMzNDksIm5iZiI6MTcyODI5MzA0OSwicGF0aCI6Ii84ODcxMDM4OS8zNzQxMTA0OTUtMDdmNDNlNzktZDU2OC00MjRhLWI3NDMtNmE4MTk4MzdhOThiLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDA3VDA5MjQwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI3NjJmZDZmMmE5NGYyNzhkZmZiMTkyNzkwNWY3N2NlOWI3MDYxOWY1MDhhYTE2OGRiNWUzZjEzYjZkMDgyNDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.gUnVAX4QPtzfGjx3uSrfy5GTwFdnvZIQPZC3tePeijk",
+    img: "https://projectfiles45.s3.ap-south-1.amazonaws.com/Screenshot+2024-10-07+145331.jpg",
     iconLists: [
       "/images/icons/react.svg",
       "/tail.svg",
@@ -138,7 +138,7 @@ export const projects = [
     id: 2,
     title: "Food Delivery Website",
     des: "This project is a food delivery website with features such as user authentication, shopping cart functionality, order placement, and administration panel for managing orders and food items.",
-    img: "https://private-user-images.githubusercontent.com/88710389/325232745-b1ed80de-7e4d-42cc-9729-2dfde8f13892.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjgyOTM4NjUsIm5iZiI6MTcyODI5MzU2NSwicGF0aCI6Ii84ODcxMDM4OS8zMjUyMzI3NDUtYjFlZDgwZGUtN2U0ZC00MmNjLTk3MjktMmRmZGU4ZjEzODkyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDA3VDA5MzI0NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZjMGVkMTYyYjUzM2YyY2NkNjRmMjI4YWFlMGE4Y2E2M2E0NGY2N2EwYmNhM2FlZjdiMjk0MjYwNmRmOWM5OTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.dTgErze-pQhFvXU9QgeHIOXHolGy4e8FuoqLCmKmTfQ",
+    img: "https://projectfiles45.s3.ap-south-1.amazonaws.com/food.jpg",
     iconLists: [
      
       "/images/icons/react.svg",
