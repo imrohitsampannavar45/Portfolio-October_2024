@@ -71,7 +71,7 @@ const Intro = () => {
         </div>
         <div className="text-2xl lg:text-4xl my-5 max-sm:ml-3">
           <p className="leading-snug max-sm:font-extralight  text-[#868562] dark:text-[#BBBAA6]">
-          I am a passionate and self-motivated software engineer with a background in computer engineering and a Bachelor's degree in Engineering.
+          I am a passionate and self-motivated software engineer with a background in computer engineering and a Bachelors degree in Engineering.
           
            With over a year of experience in &apos;Software Development Engineer&apos;  <br /> <br />
             I specialize in full-stack web development and have a strong foundation in data structures, algorithms, and various programming languages.
